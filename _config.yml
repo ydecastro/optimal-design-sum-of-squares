@@ -1,1 +1,5 @@
 theme: jekyll-theme-dinky
+title: optimal-design-sum-of-squares
+description: Computing approximate optimal designs for multivariate polynomial regressions
+show_downloads: true
+google_analytics: UA-3278327-4
