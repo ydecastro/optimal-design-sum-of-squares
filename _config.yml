@@ -3,3 +3,7 @@ title: optimal-design-sum-of-squares
 description: Computing approximate optimal designs for multivariate polynomial regressions
 show_downloads: true
 google_analytics: UA-3278327-4
+github:
+  is_user_page: true
+  is_project_page: true
+  owner_url: https://ydecastro.github.io/
