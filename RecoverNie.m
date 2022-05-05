@@ -71,8 +71,8 @@ end
 % Solve problem 
 v = mmon(x,k);
 f = v'*v; % objective function to minimize
-R = msdp(mom(mmon(x,0,2*d))-momv(1:nchoosek(2*d+n,n))==0, spt, k);
-%R = msdp(min(-f),0==mom(mmon(x,0,2*d))-momv(1:nchoosek(2*d+n,n)), spt, k); 
+%R = msdp(mom(mmon(x,0,2*d))-momv(1:nchoosek(2*d+n,n))==0, spt, k);
+R = msdp(min(-f),0==mom(mmon(x,0,2*d))-momv(1:nchoosek(2*d+n,n)), spt, k); 
 % model problem with Gloptipoly
 % Attention: By default GloptiPoly minimizes the trace, when no objective
 % function is found
